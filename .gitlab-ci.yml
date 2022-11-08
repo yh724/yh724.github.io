@@ -10,6 +10,8 @@ before_script:
 pages:
   script:
     - hexo generate
+  tags:
+    - blog
   artifacts:
     paths:
       - public
